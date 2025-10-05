@@ -1,0 +1,50 @@
+Slide 1: Project Title
+
+AI StoryTeller: Interactive Story Generation with GPT-2
+Author: Khyati
+Date: October 2025
+Built With: Python, GPT-2, Hugging Face, Gradio
+
+
+Slide 2: What It Does
+
+Takes a user’s story prompt
+Adds genre-based context (e.g., Sci-Fi, Fantasy)
+Uses GPT-2 to generate a full story
+Shows story statistics (word count, sentence count, etc.)
+
+
+Slide 3: Tools & Features
+
+Libraries Used:
+ `transformers`, `torch`, `gradio`, `sentencepiece`, `accelerate`
+Key Features:
+  Genre selection
+  Creativity control (temperature)
+  Advanced settings (top-k, top-p)
+  Web interface via Gradio
+
+
+Slide 4: Output Example
+
+Prompt: “Once upon a time in a distant galaxy…”
+Genre: Sci-Fi
+Story Snippet:
+> “[Sci-Fi Story] Once upon a time in a distant galaxy, a massive black hole exploded…”
+
+Stats:
+ Words: 130
+ Sentences: 8
+ Avg word length: 4.0
+
+
+Slide 5: Key Takeaways
+
+Learned:
+  How to use GPT-2 for text generation
+  Build interactive apps with Gradio
+  Fine-tune output with parameters (temp, top-k/p)
+Future Ideas:
+  Use GPT-3.5/4
+  Add story-saving & editing features
+
